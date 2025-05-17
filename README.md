@@ -2,7 +2,7 @@
 This is a CMake OpenGL template originally made in CLION, but it can be used across many different text editors if needed. This project is primarily designed for beginners who are learning practical configuration design patterns. You can also use this project if you don't feel like downloading everything separately.
 
 
-Project Organization Template
+# Project Organization Template
 
 The main idea is that you don't need to memorize this particular content, but you should take into
 consideration about the importance of project design in the way C++ code is organized in comparison to other
