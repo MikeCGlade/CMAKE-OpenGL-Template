@@ -4,8 +4,6 @@ This is a CMake OpenGL template originally made in CLION, but it can be used acr
 
 # Project Organization Template
 
-The main idea is that you don't need to memorize this particular content, but you should take into
-consideration about the importance of project design in the way C++ code is organized in comparison to other
-high level languages. This is not a perfect example but it is something to start with as skills begin developing.
-Each sub component should have a CMakeList.txt for the sake of simplicity. You do not want to have every cpp or c
-file on add_executable(appname sourcefiles.c, etc.cpp)
+The primary goal is not to memorize the specific structure of this project, but to understand the importance of thoughtful project design—particularly how C++ code organization differs from that of other high-level languages. While this is not a definitive or production-ready example, it serves as a solid starting point for developing best practices as your skills grow.
+
+To maintain clarity and scalability, each module or component should include its own CMakeLists.txt file. This modular approach helps avoid cluttering the main build configuration with a long list of source files in a single add_executable() call. Instead, individual libraries can be built per component and linked as needed, leading to a cleaner and more maintainable build system.
